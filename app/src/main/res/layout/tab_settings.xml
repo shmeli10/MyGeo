@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MMV.Tab_Content_LL">
+
+    <ScrollView style="@style/MM">
+
+        <LinearLayout style="@style/MMV">
+
+            <RelativeLayout style="@style/MW">
+
+                <TextView
+                    style="@style/WW"
+                    android:text="GPS модуль" />
+                <CheckBox
+                    android:id="@+id/MapSettings_GPS_CHB"
+                    style="@style/WW"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:button="@drawable/settings_checkbox_selector"
+                    android:checked="false"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                style="@style/MW"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/WW"
+                    android:text="Internet" />
+                <CheckBox
+                    android:id="@+id/MapSettings_Internet_CHB"
+                    style="@style/WW"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:button="@drawable/settings_checkbox_selector"
+                    android:checked="false"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                style="@style/MW"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/WW"
+                    android:text="Гироскоп (наклон телефона)" />
+                <CheckBox
+                    android:id="@+id/MapSettings_Gyroscope_CHB"
+                    style="@style/WW"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:button="@drawable/settings_checkbox_selector"
+                    android:checked="false"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/MapSettings_SendUrl_RL"
+                style="@style/MWV.MapSettings_SendUrl_RL">
+
+                <EditText
+                    android:id="@+id/MapSettings_SendUrl_ET"
+                    style="@style/MW.MapSettings_SendUrl_ET"/>
+                <Button
+                    android:id="@+id/MapSettings_Save_BTN"
+                    style="@style/WW.MapSettings_Save_BTN"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

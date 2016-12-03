@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MMV"
+    android:background="@color/black"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/BattleResult_Title_TV"
+        style="@style/WW"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        android:text="@string/winner_unknown" />
+    <View style="@style/WW.VStrut" />
+    <LinearLayout
+        android:id="@+id/BattleResult_CloseWrap_LL"
+        style="@style/MW"
+        android:padding="5dp"
+        android:background="@drawable/menu_selector"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:id="@+id/BattleResult_Close_TV"
+            style="@style/WW"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="@string/close_text" />
+
+    </LinearLayout>
+
+</LinearLayout>

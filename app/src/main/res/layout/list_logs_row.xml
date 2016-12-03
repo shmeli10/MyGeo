@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MWH"
+    android:padding="5dp">
+
+    <LinearLayout
+        style="@style/MWH">
+
+        <ImageView
+            android:id="@+id/LogsRow_IV"
+            android:layout_width="30dp"
+            android:layout_height="22dp"
+            android:scaleType="fitCenter">
+        </ImageView>
+        <TextView
+            android:id="@+id/LogsRow_TV"
+            style="@style/WW"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

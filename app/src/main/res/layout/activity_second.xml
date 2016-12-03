@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MM">
+
+    <LinearLayout
+        android:id="@+id/FirstLayer_LL"
+        style="@style/MMV"
+        android:background="@color/white">
+
+        <LinearLayout style="@style/MWH.Navigation_LL">
+
+            <LinearLayout
+                android:id="@+id/SecondActivity_ShowMenu_LL"
+                style="@style/MWV.Header_DataBlock_LL">
+
+                <ImageView
+                    style="@style/WW"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/show_menu_white" />
+
+            </LinearLayout>
+            <LinearLayout style="@style/MWV.Header_DataBlock_LL">
+
+                <TextView
+                    style="@style/MW.Header_Data_TV"
+                    android:text="LIFE"/>
+                <TextView
+                    android:id="@+id/SecondActivity_LifeTV"
+                    style="@style/MW.Header_Data_TV"
+                    android:text="0/0"/>
+
+            </LinearLayout>
+            <LinearLayout style="@style/MWV.Header_DataBlock_LL">
+
+                <TextView
+                    style="@style/MW.Header_Data_TV"
+                    android:text="EXP"/>
+                <TextView
+                    android:id="@+id/SecondActivity_ExperienceTV"
+                    style="@style/MW.Header_Data_TV"
+                    android:text="0(0)"/>
+
+            </LinearLayout>
+            <LinearLayout style="@style/MWV.Header_DataBlock_LL">
+
+                <TextView
+                    style="@style/MW.Header_Data_TV"
+                    android:text="SHOT"/>
+                <TextView
+                    android:id="@+id/SecondActivity_ShotTV"
+                    style="@style/MW.Header_Data_TV"
+                    android:text="0"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/SecondActivity_ShowMe_LL"
+                style="@style/MWV.Header_DataBlock_LL">
+
+                <TextView
+                    style="@style/MW.Header_Data_TV"
+                    android:text="Show"/>
+                <TextView
+                    style="@style/MW.Header_Data_TV"
+                    android:text="Me"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <TabHost
+            android:id="@android:id/tabhost"
+            style="@style/MW" >
+
+            <LinearLayout
+                android:id="@+id/SecondActivity_TabsLL"
+                style="@style/MWV">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    style="@style/MW" />
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    style="@style/MM">
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </TabHost>
+
+    </LinearLayout>
+    <include layout="@layout/panel" />
+
+</FrameLayout>

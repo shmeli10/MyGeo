@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Panel_LL"
+    style="@style/MMV">
+
+    <LinearLayout
+        android:id="@+id/Panel_Container_LL"
+        style="@style/WWH"
+        android:background="@color/bg_brown">
+
+        <LinearLayout
+            android:id="@+id/Panel_Menu_LL"
+            style="@style/WWV">
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Panel_MenuArrows_LL"
+            style="@style/WMV">
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Panel_SubMenu_LL"
+            style="@style/WWV">
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Panel_CloseMenu_LL"
+            style="@style/WMV"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/Panel_Close_IV"
+                style="@style/WW"
+                android:src="@drawable/arrow_left_white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

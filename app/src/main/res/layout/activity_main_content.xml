@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ContentNav_FragmentContainer_RL"
+    style="@style/MM"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.os1.mygeo.View.Main_Activity"
+    tools:showIn="@layout/activity_main_app_bar">
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        style="@style/MW" >
+
+        <LinearLayout
+            android:id="@+id/MainActivity_TabsLL"
+            style="@style/MWV">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                style="@style/MW" />
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                style="@style/MM">
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </TabHost>
+
+</RelativeLayout>

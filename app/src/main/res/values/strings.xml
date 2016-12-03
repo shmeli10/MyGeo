@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Бомбардир</string>
+
+    <string name="map_text">Карта</string>
+    <string name="settings_text">Настройки</string>
+    <string name="logs_text">Логи</string>
+
+    <string name="accept_shoot_text">Подтверждение выстрела</string>
+    <string name="accept_answer_text">Отправить данный выстрел?</string>
+
+    <string name="select_enemy_title_text">Выбор соперника</string>
+    <string name="select_enemy_message_text">В радиус падения снаряда попали несколько соперников. Выберите одного из них, щелкнув по его маркеру (синего цвета).</string>
+
+    <string name="accept_select_enemy_title_text">Подтверждение выбора соперника</string>
+    <string name="accept_select_enemy_message_text">Сразиться с этим соперником?</string>
+
+    <string name="yes_text">Да</string>
+    <string name="no_text">Нет</string>
+
+    <string name="cancel_text">Отмена</string>
+
+    <string name="user_email_hint">ВАШ ЛОГИН</string>
+    <string name="user_password_hint">ПАРОЛЬ</string>
+
+    <string name="enter_text">ВОЙТИ / РЕГИСТРАЦИЯ</string>
+    <string name="save_text">Сохранить</string>
+
+    <string name="system_error_title_text">Ошибка приложения</string>
+    <string name="system_error_content_text">Возникла системная ошибка. Перезапустите пожалуйста приложение.</string>
+
+    <string name="location_error_title_text">Местоположение не определено</string>
+    <string name="location_error_content_text">Не удалось определить Ваше местоположение. Измените пожалуйста настройки телефона и перезапустите приложение.</string>
+
+    <string name="new_send_url_saved_title_text">Новый URL</string>
+    <string name="new_send_url_saved_message_text">Изменение URL прошло успешно.</string>
+    <string name="new_send_url_empty_message_text">URL не указан.</string>
+    <string name="not_new_send_url_message_text">Указан прежний URL.</string>
+
+    <string name="init_text">Инициализация</string>
+
+    <string name="enter_as_anonym_text">Войти анонимно</string>
+
+    <string name="api_key_1">AIzaSyD3VEmoynABcS9jM0lGigYHO41XQAfxOsI</string>
+    <string name="api_key_2">AIzaSyBqPDBQz01tvKwuRC-PelY8Iuzb8Fvtffw</string>
+
+    <string name="enter_data_text">ВВЕДИТЕ ВАШИ ДАННЫЕ</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_nav_">Nav_Activity</string>
+
+    <string name="weapon_text">Оружие</string>
+    <string name="armor_text">Броня</string>
+    <string name="menu_settings_text">Настройки</string>
+
+    <string name="gps_settings_text">Настройка GPS</string>
+    <string name="gps_is_disabled_text">Сейчас GPS отлючён.\n Включить?</string>
+
+    <string name="winner_unknown">Результат боя не известен.</string>
+
+    <string name="nobody_won">Боевая ничья.</string>
+    <string name="you_won">Бой завершился победой.</string>
+    <string name="opponent_won">Бой завершился поражением.</string>
+
+    <string name="close_text">Закрыть.</string>
+
+    <string name="auth_text">  Авторизация... </string>
+
+    <string name="auth_success_text">Авторизация успешна.</string>
+    <string name="auth_error_text">Ошибка авторизации.</string>
+    <string name="server_error_text">Ошибка сервера.</string>
+    <string name="account_disabled_text">Аккаунт выключен.</string>
+    <string name="no_connection_text">Нет подключения к Интернету.</string>
+
+    <string name="no_data_text">Нет данных.</string>
+
+    <string name="exit_text">Выход</string>
+    <string name="accept_exit_text">Вы действительно хотите выйти из приложения?</string>
+
+
+    <string name="weapon_select_error_text">Оружие не может быть выбрано. Нет снарядов.</string>
+
+    <string name="weapon_is_empty_title_text">Нет снарядов.</string>
+    <string name="weapon_is_empty_message_text">Необходимо выбрать другое оружие либо докупить снаряды для текущего.</string>
+
+    <string name="not_ready_to_fight_title_text">К бою не готов.</string>
+    <string name="not_ready_to_fight_message_text">Вам необходимо дождаться полного восстановления здоровья.</string>
+
+</resources>

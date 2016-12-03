@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MMV.LoginActivity_Container_LL">
+
+    <FrameLayout
+        style="@style/WW">
+
+        <LinearLayout
+            android:id="@+id/LoginActivity_MainWindow_LL"
+            style="@style/MMV.LoginActivity_MainWindow_LL">
+
+            <LinearLayout
+                android:id="@+id/LoginActivity_Data_LL"
+                style="@style/MMV"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="48dp"
+                android:background="@drawable/auth_window_bg"
+                android:gravity="center_horizontal">
+
+                <TextView style="@style/WW.LoginActivity_Title_TV" />
+                <EditText
+                    android:id="@+id/LoginActivity_UserEmail_ET"
+                    style="@style/MW.LoginActivity_ET.LoginActivity_UserEmail_ET"/>
+                <EditText
+                    android:id="@+id/LoginActivity_UserPassword_ET"
+                    style="@style/MW.LoginActivity_ET.LoginActivity_UserPassword_ET"/>
+                <CheckBox
+                    android:id="@+id/LoginActivity_EnterAsAnonym_CHB"
+                    style="@style/WW.LoginActivity_EnterAsAnonym_CHB"/>
+                <TextView
+                    android:id="@+id/LoginActivity_AuthMsg_TV"
+                    style="@style/WW.LoginActivity_AuthMsg_TV"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LoginActivity_ButtonWrap_LL"
+            style="@style/WWV"
+            android:layout_gravity="bottom|center_horizontal">
+
+            <LinearLayout
+                android:id="@+id/LoginActivity_Button_LL"
+                style="@style/WWV.LoginActivity_Button_LL">
+
+                <LinearLayout
+                    android:id="@+id/LoginActivity_ButtonData_LL"
+                    style="@style/MWV.LoginActivity_ButtonData_LL">
+
+                    <TextView style="@style/MW.LoginActivity_Button_TV" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LoginActivity_CloseButton_LL"
+            style="@style/WWV"
+            android:layout_gravity="end"
+            android:background="@drawable/auth_btn_bg">
+
+            <TextView
+                style="@style/WW"
+                android:layout_gravity="center"
+                android:background="@drawable/auth_btn_close" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

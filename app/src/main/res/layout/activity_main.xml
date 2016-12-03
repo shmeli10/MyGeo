@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    style="@style/MM"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <LinearLayout
+            style="@style/WWH"
+            android:background="@color/bg_brown"
+            android:layout_gravity="start"
+            android:gravity="center_vertical|center_horizontal">
+
+            <TableLayout
+                android:id="@+id/MainActivity_Column1_TL"
+                style="@style/MMV"
+                android:layout_weight="1">
+
+                <TableRow>
+
+                    <LinearLayout
+                        android:id="@+id/Main_Activity_WeaponWrap_LL"
+                        style="@style/WWV"
+                        android:padding="10dp">
+
+                        <TextView
+                            style="@style/WW"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:text="@string/weapon_text" />
+
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow>
+
+                    <LinearLayout
+                        android:id="@+id/Main_Activity_ArmorWrap_LL"
+                        style="@style/WWV"
+                        android:padding="10dp">
+
+                        <TextView
+                            style="@style/WW"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:text="@string/armor_text" />
+
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow>
+
+                    <LinearLayout
+                        android:id="@+id/Main_Activity_SettingsWrap_LL"
+                        style="@style/WWV"
+                        android:padding="10dp">
+
+                        <TextView
+                            style="@style/WW"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:text="@string/menu_settings_text" />
+
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow>
+
+                    <LinearLayout
+                        android:id="@+id/Main_Activity_ExitWrap_LL"
+                        style="@style/WWV"
+                        android:padding="10dp">
+
+                        <TextView
+                            style="@style/WW"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:text="@string/exit_text" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+             </TableLayout>
+            <TableLayout
+                android:id="@+id/MainActivity_Column2_TL"
+                style="@style/MMV"
+                android:layout_weight="1">
+
+                <TableRow>
+
+                    <LinearLayout
+                        android:id="@+id/Main_Activity_Weapon1_LL"
+                        style="@style/WWV"
+                        android:padding="10dp">
+
+                        <TextView
+                            style="@style/WW"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:text="GUN1" />
+
+                    </LinearLayout>
+
+
+                </TableRow>
+                <TableRow>
+
+                    <LinearLayout
+                        android:id="@+id/Main_Activity_Weapon2_LL"
+                        style="@style/WWV"
+                        android:padding="10dp">
+
+                        <TextView
+                            style="@style/WW"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:text="GUN2" />
+
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow>
+
+                    <LinearLayout
+                        android:id="@+id/Main_Activity_Weapon3_LL"
+                        style="@style/WWV"
+                        android:padding="10dp">
+
+                        <TextView
+                            style="@style/WW"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:text="GUN3" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+            </TableLayout>
+            <TableLayout
+                android:id="@+id/MainActivity_Column3_TL"
+                style="@style/MMV"
+                android:layout_weight="1">
+
+                <TableRow>
+
+                    <LinearLayout
+                        android:id="@+id/Main_Activity_BombType1_LL"
+                        style="@style/WWV"
+                        android:padding="10dp">
+
+                        <TextView
+                            style="@style/WW"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:text="Снаряд (тип 1)" />
+
+                    </LinearLayout>
+
+
+                </TableRow>
+                <TableRow>
+
+                    <LinearLayout
+                        android:id="@+id/Main_Activity_BombType2_LL"
+                        style="@style/WWV"
+                        android:padding="10dp">
+
+                        <TextView
+                            style="@style/WW"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:text="Снаряд (тип 2)" />
+
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow>
+
+                    <LinearLayout
+                        android:id="@+id/Main_Activity_BombType3_LL"
+                        style="@style/WWV"
+                        android:padding="10dp">
+
+                        <TextView
+                            style="@style/WW"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:text="Снаряд (тип 3)" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+            </TableLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/activity_main_app_bar" />
+
+</android.support.v4.widget.DrawerLayout>
